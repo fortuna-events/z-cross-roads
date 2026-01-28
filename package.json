@@ -1,7 +1,7 @@
 {
-    "name": "z-app",
+    "name": "z-cross-roads",
     "version": "2.0.0",
-    "description": "*Working template for URL encoded app*",
+    "description": "*Where will you go next?*",
     "scripts": {
         "dev": "vite",
         "build": "run-p type-check \"build-only {@}\" --",
@@ -14,11 +14,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fortuna-events/z-app.git"
+        "url": "git+https://github.com/fortuna-events/z-cross-roads.git"
     },
     "author": "clement-gouin",
     "license": "ISC",
-    "homepage": "https://github.com/fortuna-events/z-app#readme",
+    "homepage": "https://github.com/fortuna-events/z-cross-roads#readme",
     "dependencies": {
         "lucide": "^0.562.0",
         "lz-string": "^1.5.0",

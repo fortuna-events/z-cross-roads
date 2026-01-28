@@ -4,10 +4,15 @@ export interface Editor {
     overlayText: string;
 }
 
-// TODO: 5. implement custom logic
+export interface Link {
+    href: string;
+    color: string;
+    label: string;
+}
+
 export interface Page {
     error: boolean;
     header: string;
     hasColor: boolean;
-    parts: string[];
+    links: Link[];
 }

@@ -1,15 +1,11 @@
-# [Z] App (template)
-*Working template for URL encoded app*
-
-<!-- TODO: 1. rename app (and tool URL) -->
+# [Z] Cross Roads
+*Where will you go next?*
 
 > Part of the [Z-Apps](https://github.com/fortuna-events/z-app)
 
-### [Tool link](https://fortuna-events.github.io/z-app/)
+### [Tool link](https://fortuna-events.github.io/z-cross-roads/)
 
 ## Data format
-
-<!-- TODO: 3. change data format -->
 
 Format is made line by line
 
@@ -21,82 +17,37 @@ Header (1-2 line):
 
 After that each part is defined as follows:
 ```txt
-1    Data (html)
+1    Link(, color)
+2    Label (html)
 ```
 
 ## Samples
 
-<!-- TODO: 4. change sample -->
-
-[Sample 1](https://fortuna-events.github.io/z-app/?z=AARDdPWDAjZNDFQkOAogtlABzB42NXAcGATucbREAeBYGgcWAABdl5z6OpNKE1gCCTlB94kPNYEECgGjAKbpHow1DAKPuKMdXJB4DwSAeAgCwXHz0WAlLAx0BghARSZCwegxgdgpABgNwJoK)
+[Sample 1](https://fortuna-events.github.io/z-cross-roads/?z=AARDdPWDAjZNDFQkOAogtlABzB42NXAcGATucbREAeBYGgcWAABdl5z6OpNKE1gCCTlB94kPNYEECgGjAKbpHow1DAKPuKMdXJB4DwSAeAgCwXHz0WAlLAx0BghARSZCwegxgdgpABgNwJoK)
 
 ```txt
-Url encoded app template
-<i>Italic text</i>
-<b>Bold text</b>
-<pre>code text</pre>
-<a href="https://google.com">link</a>
+Where to find me
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+🎥 | My Youtube Channel
+https://www.instagram.com/officialrickastley
+📷 | My Instagram Profile
+https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt
+🎵 | My Spotify
 ```
 
-[Sample 2](https://fortuna-events.github.io/z-app/?z=AABCdm4koM3gXXxowDCIBFEiNeiCvIWP5Bf4ogxIWBATAQkwjwwmIAwKo6JAgjxkHGC9c6nfs3F68aOCMR5RwqeYtr2z8AcEEFcag-DzEBeRZTVAACUxFHPbYYBHsfr7GBgzgCuIhEyoAtGwC3GgTYYslC2twNAwSYgVHGe4WQqzFfcxskCRTcey0aAEELksSQZwCNsAGCbgTG6AA1YpmazBgHe4CAKQwRQs1MAQReI020qNtAoQOvMC0CqhjMhkDgXAOsZBD4akCoFHAoRDAGAwMAoAgAu34edCgaSqloTjSpsEYCA7AgRLmeA4CliCGpENKKhB04sHwxZAXBMGgwIA4GxFglA3BEAMFYDwBgtghgyAfAjwCwD)
+[Sample 2](https://fortuna-events.github.io/z-cross-roads/?z=AgofizcFLPmSPYTbqSB8xNeSaWSAExScjNGQO9NY0ZQwJEoRJkgWQDXYCFNCBCDfgCAb9D8pKlIv3TSiAL7xEQILmsGAwUagNuIAX0n-gmCQDqYF_GEwel90AAo4f6BBYSWoR2goDKAEKwGaCXQzFYCB2AbPBAFb-xK1URR5gCAIwHWpuZ5BrwTMXcKM90zj5Eg12mBfmsQmBoQGmGBE8cS3ZAAfqYQMZCAWBoC0ElMAUwIAYwK0QSWyxkfAESBrAwmcUDANAoiK0HA2AIeHBQVAYHAKTDEZBwLAAzdVAApYFEAFEHARBQAKVAAPVCAkkEAMNSRALNDgcWAwBAhBwPL6Nc4MlOAuDwAa3AYQZBaBYDAmUUaIrHAMwnPXAi6AgsuAACRAoRQpzAwaOAbBQTh7DHF4apLzzwaKgoEiArTAuCIpJALBN9AlJgihACvA7A2DMG0EAWCMfAjwCwD)
 
 ```txt
-<h1>Sample with <b>custom CSS classes</b> and <i>custom color</i></h1>
-30, 80%
-<a class='button purple-300' href='https://google.com'><i icon=link></i> link with icons</a>
-<div class='admonition success'><p class=admonition-title>Title</p><p>Content</p><div class=progress><div class=progress-bar style="width:25%"><p class=progress-label>25%</p></div></div></div>
+<h1><i icon=hand></i> Your choice <i icon=hand></i></h1><img src="https://external-preview.redd.it/C84ufieQl-aIoR4PrmEGpAEoT81zMhTr7UqG6_66XVM.jpg?auto=webp&s=652ab6f0854cc2e7375fe34c9944a650a46b08a4" />
+https://www.nyan.cat/index.php?cat=tacnayn,red
+<b><i icon=pill></i></b> Take the red pill
+https://www.nyan.cat/index.php?cat=original,blue
+<b><i icon=pill></i></b> Take the blue pill
 ```
-
-## Use this template
-
-<!-- TODO: 6. remove this part -->
-
-```bash
-git clone git@github.com/fortuna-events/z-app.git {PROJECT}
-cd {PROJECT}
-git remote rename origin template
-git remote add origin {PROJECT REMOTE}
-# everytime you want to update your fork
-git fetch --all
-git merge template/master
-```
-
-> Every task is indicated with a TODO
-
-1. [ ] Rename app in [README.md](./README.md), [index.html](./index.html) and [package.json](./package.json)
-2. [ ] Change app hue and saturation in [constants.ts](./src/constants.ts)
-3. [ ] Change data format in [README.md](./README.md) and [constants.ts](./src/constants.ts)
-4. [ ] Change sample in [README.md](./README.md) and [constants.ts](./src/constants.ts)
-5. [ ] Implement your custom logic in [interfaces.ts](./src/interfaces.ts), [constants.ts](./src/constants.ts), [App.vue](./src/App.vue) and [parser.ts](./src/lib/parser.ts)
-6. [ ] Remove this part and all TODO
-
-### Upgrade from version 1
-
-```bash
-git remote add template git@github.com:fortuna-events/z-app.git
-git fetch --all
-git checkout -b v1 origin/master
-git branch -D master
-git checkout -b master template/master
-bun install
-# re-code logic by checking online code
-git push origin master v1 --force
-```
-
-## Apps using this template
-
-<!-- TODO: 6. remove this part -->
-
-* [Z-App](https://github.com/fortuna-events/z-app)
-* [Treasure-Finder](https://github.com/fortuna-events/z-treasure-finder)
-* [On-The-Quizz](https://github.com/fortuna-events/z-on-the-quizz)
-* [Cross-Roads](https://github.com/fortuna-events/z-cross-roads)
-* [Dice-Roller](https://github.com/fortuna-events/z-dice-roller)
-* [Hero-Quest](https://github.com/fortuna-events/z-hero-quest)
 
 ## Tips
 
-* [Material design colors](https://materialui.co/colors/) are available, you can use `class="red-500"` on your HTML
+* [Material design colors](https://materialui.co/colors/) are available, you can use `class="red-500"` on your HTML or your buttons colors
 * [Lucide icons](https://lucide.dev/icons) are available, you can use `<i icon=house></i>` on your HTML
 * The `.button` class make links more beautifuls (can also be `.disabled` or colored `amber-300`)
 * Admonitions can be made with things like `<div class='admonition success'><p class=admonition-title>Title</p><p>Content</p></div>`

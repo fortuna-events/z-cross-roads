@@ -67,10 +67,14 @@ export function parsePage(value: string): Page {
         parts.shift(); // consume empty line
         changeDocumentColor(DEFAULT_COLOR_HUE, DEFAULT_COLOR_SAT);
     }
-    // TODO: 5. implement custom logic
-    parsed.parts = [];
-    while (parts.length) {
-        parsed.parts.push(parts.shift()!);
+    parsed.links = [];
+    while (parts.length >= 2) {
+        const rawHref = parts.shift()!.split(",");
+        parsed.links.push({
+            href: rawHref[0]!.trim(),
+            color: (rawHref[1] ?? "").trim(),
+            label: parts.shift()!,
+        });
     }
     return parsed;
 }

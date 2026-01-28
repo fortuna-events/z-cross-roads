@@ -47,10 +47,9 @@ watch(debugData, dataChanged);
 <template>
     <main :style="{ display: visible ? 'inherit' : 'none' }">
         <div v-if="debug">
-            <!-- TODO: 1. rename app -->
             <h1>
-                <i icon="cog"></i>
-                Z-App
+                <i icon="signpost-big"></i>
+                Cross-Roads
             </h1>
             <ZEditor v-model="debugData" :parsed="parsed"></ZEditor>
             <a v-if="debugUrl" :href="debugUrl" target="_blank">
@@ -61,9 +60,16 @@ watch(debugData, dataChanged);
             <br />
             <hr />
         </div>
-        <!-- TODO: 5. implement custom logic -->
         <div class="header" v-html="parsed.header"></div>
-        <div v-for="(d, i) in parsed.parts" :key="`data-${i}`" v-html="d"></div>
+        <a
+            v-for="(link, i) in parsed.links"
+            :key="`link-${i}`"
+            :href="link.href"
+            class="button"
+            :class="link.color"
+            target="_blank"
+            v-html="link.label"
+        ></a>
     </main>
 </template>
 
