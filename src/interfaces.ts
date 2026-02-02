@@ -11,7 +11,7 @@ export interface Link {
 }
 
 export interface Page {
-    error: boolean;
+    error: string | null;
     header: string;
     hasColor: boolean;
     links: Link[];
