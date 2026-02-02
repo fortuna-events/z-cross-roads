@@ -3,7 +3,7 @@
 
 > Part of the [Z-Apps](https://github.com/fortuna-events/z-app)
 
-### [Tool link](https://fortuna-events.github.io/z-cross-roads/)
+### [Tool link](https://roads.fortuna-events.fr)
 
 ## Data format
 
@@ -23,7 +23,7 @@ After that each part is defined as follows:
 
 ## Samples
 
-[Sample 1](https://fortuna-events.github.io/z-cross-roads/?z=AARDdPWDAjZNDFQkOAogtlABzB42NXAcGATucbREAeBYGgcWAABdl5z6OpNKE1gCCTlB94kPNYEECgGjAKbpHow1DAKPuKMdXJB4DwSAeAgCwXHz0WAlLAx0BghARSZCwegxgdgpABgNwJoK)
+[Sample 1](https://roads.fortuna-events.fr?z=AARDdPWDAjZNDFQkOAogtlABzB42NXAcGATucbREAeBYGgcWAABdl5z6OpNKE1gCCTlB94kPNYEECgGjAKbpHow1DAKPuKMdXJB4DwSAeAgCwXHz0WAlLAx0BghARSZCwegxgdgpABgNwJoK)
 
 ```txt
 Where to find me
@@ -35,7 +35,7 @@ https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt
 🎵 | My Spotify
 ```
 
-[Sample 2](https://fortuna-events.github.io/z-cross-roads/?z=AgofizcFLPmSPYTbqSB8xNeSaWSAExScjNGQO9NY0ZQwJEoRJkgWQDXYCFNCBCDfgCAb9D8pKlIv3TSiAL7xEQILmsGAwUagNuIAX0n-gmCQDqYF_GEwel90AAo4f6BBYSWoR2goDKAEKwGaCXQzFYCB2AbPBAFb-xK1URR5gCAIwHWpuZ5BrwTMXcKM90zj5Eg12mBfmsQmBoQGmGBE8cS3ZAAfqYQMZCAWBoC0ElMAUwIAYwK0QSWyxkfAESBrAwmcUDANAoiK0HA2AIeHBQVAYHAKTDEZBwLAAzdVAApYFEAFEHARBQAKVAAPVCAkkEAMNSRALNDgcWAwBAhBwPL6Nc4MlOAuDwAa3AYQZBaBYDAmUUaIrHAMwnPXAi6AgsuAACRAoRQpzAwaOAbBQTh7DHF4apLzzwaKgoEiArTAuCIpJALBN9AlJgihACvA7A2DMG0EAWCMfAjwCwD)
+[Sample 2](https://roads.fortuna-events.fr?z=AgofizcFLPmSPYTbqSB8xNeSaWSAExScjNGQO9NY0ZQwJEoRJkgWQDXYCFNCBCDfgCAb9D8pKlIv3TSiAL7xEQILmsGAwUagNuIAX0n-gmCQDqYF_GEwel90AAo4f6BBYSWoR2goDKAEKwGaCXQzFYCB2AbPBAFb-xK1URR5gCAIwHWpuZ5BrwTMXcKM90zj5Eg12mBfmsQmBoQGmGBE8cS3ZAAfqYQMZCAWBoC0ElMAUwIAYwK0QSWyxkfAESBrAwmcUDANAoiK0HA2AIeHBQVAYHAKTDEZBwLAAzdVAApYFEAFEHARBQAKVAAPVCAkkEAMNSRALNDgcWAwBAhBwPL6Nc4MlOAuDwAa3AYQZBaBYDAmUUaIrHAMwnPXAi6AgsuAACRAoRQpzAwaOAbBQTh7DHF4apLzzwaKgoEiArTAuCIpJALBN9AlJgihACvA7A2DMG0EAWCMfAjwCwD)
 
 ```txt
 <h1><i icon=hand></i> Your choice <i icon=hand></i></h1><img src="https://external-preview.redd.it/C84ufieQl-aIoR4PrmEGpAEoT81zMhTr7UqG6_66XVM.jpg?auto=webp&s=652ab6f0854cc2e7375fe34c9944a650a46b08a4" />
